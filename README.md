@@ -108,20 +108,6 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 
 ### Prerequisites
 
-- **.NET SDK** (6.0 or higher)
-- **Visual Studio**, **Visual Studio Code**, or **JetBrains Rider**
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-.git
-
-# Navigate to project directory
-cd CSharp-LINQ-Mastery-
-
-# Restore dependencies
-dotnet restore
 
 # Run the project
 dotnet run
@@ -170,7 +156,7 @@ By exploring this project, you'll master:
 
 This repository represents an active learning journey! Contributions are welcome:
 
-- 🐛 **Report bugs** via [Issues](https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-/issues)
+- 🐛 **Report bugs** via [Issues](mailto:ammar.yasser8920@gmail.com)
 - 💡 **Suggest improvements** or additional LINQ examples
 - 🔀 **Submit pull requests** with enhanced queries or refactorings
 - ⭐ **Star the repo** if you find it helpful!
@@ -179,7 +165,7 @@ This repository represents an active learning journey! Contributions are welcome
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-/blob/main/LICENSE).
+This project is open source and available under the [MIT License](mailto:ammar.yasser8920@gmail.com).
 
 ---
 
