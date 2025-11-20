@@ -115,10 +115,10 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ammar-Yasser8/LINQ.git
+git clone https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-.git
 
 # Navigate to project directory
-cd LINQ
+cd CSharp-LINQ-Mastery-
 
 # Restore dependencies
 dotnet restore
@@ -138,7 +138,7 @@ dotnet run
 ## 📁 Project Structure
 
 ```
-LINQ/
+CSharp-LINQ-Mastery-/
 │
 ├── Program.cs                  # Main entry point with all LINQ examples
 ├── ListGenerator.cs            # Data generator for products, customers, orders
@@ -170,7 +170,7 @@ By exploring this project, you'll master:
 
 This repository represents an active learning journey! Contributions are welcome:
 
-- 🐛 **Report bugs** via [Issues](https://github.com/Ammar-Yasser8/LINQ/issues)
+- 🐛 **Report bugs** via [Issues](https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-/issues)
 - 💡 **Suggest improvements** or additional LINQ examples
 - 🔀 **Submit pull requests** with enhanced queries or refactorings
 - ⭐ **Star the repo** if you find it helpful!
@@ -179,7 +179,7 @@ This repository represents an active learning journey! Contributions are welcome
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License](https://github.com/Ammar-Yasser8/CSharp-LINQ-Mastery-/blob/main/LICENSE).
 
 ---
 
