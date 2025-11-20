@@ -16,14 +16,13 @@
 
 ## 📖 Overview
 
-This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# through practical examples. It leverages a custom data generator (`ListGenerator.cs`) and optional XML data sources (`Customers.xml`), with intelligent fallback to dummy data when files are unavailable.
+This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# through practical examples. It leverages a custom data generator (`ListGenerator.cs`) to provide data for the queries.
 
 ### ✨ Key Features
 
-- 🎯 **Multiple Operator Types**: Restriction, Element, Aggregate, Ordering, Transformation
+- 🎯 **Multiple Operator Types**: Restriction, Element, Aggregate, Ordering
 - 🔄 **Dual Syntax**: Examples in both query syntax and method syntax
-- 📊 **Real-World Scenarios**: Customer orders, product inventories, text analysis
-- 🛡️ **Resilient Design**: Automatic fallback data when external files are missing
+- 📊 **Real-World Scenarios**: Product inventories and numerical analysis
 
 ---
 
@@ -86,10 +85,6 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 <td>4️⃣</td>
 <td>Calculate the <strong>sum</strong> of all numbers in an array</td>
 </tr>
-<tr>
-<td>5️⃣</td>
-<td>Analyze <code>dictionary_english.txt</code>: total characters, shortest/longest/average word length</td>
-</tr>
 </table>
 
 ---
@@ -104,65 +99,6 @@ This project demonstrates **mastery of LINQ (Language Integrated Query)** in C# 
 <tr>
 <td>2️⃣</td>
 <td>Perform <strong>case-insensitive sorting</strong> on string arrays</td>
-</tr>
-<tr>
-<td>3️⃣</td>
-<td>Sort products by <strong>UnitsInStock</strong> (descending)</td>
-</tr>
-<tr>
-<td>4️⃣</td>
-<td>Sort digits by <strong>name length</strong>, then alphabetically</td>
-</tr>
-<tr>
-<td>5️⃣</td>
-<td>Sort words by <strong>length</strong>, then <strong>case-insensitive alphabetically</strong></td>
-</tr>
-<tr>
-<td>6️⃣</td>
-<td>Sort products by <strong>category</strong>, then <strong>price (descending)</strong></td>
-</tr>
-<tr>
-<td>7️⃣</td>
-<td>Sort words by <strong>length</strong>, then <strong>descending alphabetically</strong></td>
-</tr>
-<tr>
-<td>8️⃣</td>
-<td>Get digits whose <strong>second letter is 'i'</strong>, reversed from original array</td>
-</tr>
-</table>
-
----
-
-### 🔹 LINQ - Transformation Operators
-
-<table>
-<tr>
-<td width="50">1️⃣</td>
-<td>Select only <strong>product names</strong></td>
-</tr>
-<tr>
-<td>2️⃣</td>
-<td>Create <strong>uppercase/lowercase pairs</strong> using anonymous types</td>
-</tr>
-<tr>
-<td>3️⃣</td>
-<td>Project product properties with <strong>renamed field</strong> (<code>UnitPrice → Price</code>)</td>
-</tr>
-<tr>
-<td>4️⃣</td>
-<td>Check if each number <strong>matches its array index</strong></td>
-</tr>
-<tr>
-<td>5️⃣</td>
-<td>Generate all <strong>pairs of numbers</strong> where one is less than the other</td>
-</tr>
-<tr>
-<td>6️⃣</td>
-<td>Select <strong>orders with Total < $500.00</strong></td>
-</tr>
-<tr>
-<td>7️⃣</td>
-<td>Select <strong>orders from 1998 or later</strong></td>
 </tr>
 </table>
 
@@ -206,8 +142,6 @@ LINQ/
 │
 ├── Program.cs                  # Main entry point with all LINQ examples
 ├── ListGenerator.cs            # Data generator for products, customers, orders
-├── Customers.xml               # Optional XML data source
-├── dictionary_english.txt      # Word list for text analysis queries
 └── README.md                   # This file
 ```
 
@@ -221,16 +155,11 @@ By exploring this project, you'll master:
 - ✅ **Selecting elements** with `First`, `FirstOrDefault`, `ElementAt`
 - ✅ **Aggregating data** with `Count`, `Sum`, `Min`, `Max`, `Average`
 - ✅ **Sorting collections** with `OrderBy`, `ThenBy`, and custom comparers
-- ✅ **Transforming data** with `Select`, anonymous types, and projections
 - ✅ **Converting between query syntax and method syntax**
 
 ---
 
 ## 📝 Notes
-
-> ⚠️ **File Dependencies**  
-> - If `Customers.xml` is missing, the program uses built-in dummy data from `ListGenerator.cs`  
-> - Place `dictionary_english.txt` in the project root for word analysis examples
 
 > 💡 **Dual Syntax Examples**  
 > Most queries are demonstrated in both **query syntax** and **method syntax** for comparison
